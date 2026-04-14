@@ -223,7 +223,7 @@ ul {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: 
+  background:
     radial-gradient(ellipse at 20% 50%, rgba(108, 92, 231, 0.08) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 50%, rgba(0, 206, 201, 0.06) 0%, transparent 50%),
     radial-gradient(ellipse at 50% 0%, rgba(162, 155, 254, 0.04) 0%, transparent 40%);
@@ -231,8 +231,13 @@ ul {
 }
 
 @keyframes heroGlow {
-  0% { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(-2%, 2%) scale(1.05); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate(-2%, 2%) scale(1.05);
+  }
 }
 
 .hero-particles {
@@ -303,8 +308,15 @@ ul {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero-description {
@@ -427,8 +439,17 @@ ul {
 }
 
 @keyframes ringPulse {
-  0%, 100% { transform: scale(1); opacity: 0.5; }
-  50% { transform: scale(1.05); opacity: 1; }
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
 }
 
 .hero-image {
@@ -440,7 +461,8 @@ ul {
   position: relative;
   z-index: 2;
   background: var(--bg-card);
-  display: none; /* Hidden until real image is available */
+  display: none;
+  /* Hidden until real image is available */
 }
 
 .hero-image-wrapper::before {
@@ -484,7 +506,9 @@ ul {
   animation: float 6s ease-in-out infinite;
 }
 
-.badge-1 svg { stroke: var(--accent-1); }
+.badge-1 svg {
+  stroke: var(--accent-1);
+}
 
 .badge-2 {
   bottom: 60px;
@@ -492,7 +516,9 @@ ul {
   animation: float 6s ease-in-out infinite 2s;
 }
 
-.badge-2 svg { stroke: var(--accent-3); }
+.badge-2 svg {
+  stroke: var(--accent-3);
+}
 
 .badge-3 {
   bottom: 20px;
@@ -500,11 +526,63 @@ ul {
   animation: float 6s ease-in-out infinite 4s;
 }
 
-.badge-3 svg { stroke: var(--accent-4); }
+.badge-3 svg {
+  stroke: var(--accent-4);
+}
+
+.badge-4 {
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+  animation: float 6s ease-in-out infinite 1s;
+}
+
+.badge-4 svg {
+  stroke: #dd0031;
+}
+
+.badge-5 {
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: float 6s ease-in-out infinite 3s;
+}
+
+.badge-5 svg {
+  stroke: #0089d6;
+}
+
+.badge-6 {
+  top: 40%;
+  right: -30px;
+  animation: float 6s ease-in-out infinite 5s;
+}
+
+.badge-6 svg {
+  stroke: #f39c12;
+}
+
+.badge-7 {
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: float 6s ease-in-out infinite 3.5s;
+}
+
+.badge-7 svg {
+  stroke: #e74c3c;
+}
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 /* Scroll Indicator */
@@ -535,8 +613,17 @@ ul {
 }
 
 @keyframes scrollBounce {
-  0%, 100% { transform: translateY(0); opacity: 1; }
-  50% { transform: translateY(10px); opacity: 0.3; }
+
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(10px);
+    opacity: 0.3;
+  }
 }
 
 /* ===== Section Styles ===== */
@@ -641,9 +728,17 @@ ul {
   border-radius: 50%;
 }
 
-.dot.red { background: #ff5f57; }
-.dot.yellow { background: #ffbd2e; }
-.dot.green { background: #28ca41; }
+.dot.red {
+  background: #ff5f57;
+}
+
+.dot.yellow {
+  background: #ffbd2e;
+}
+
+.dot.green {
+  background: #28ca41;
+}
 
 .code-filename {
   font-family: var(--font-mono);
@@ -660,10 +755,21 @@ ul {
   color: var(--text-secondary);
 }
 
-.code-keyword { color: #c792ea; }
-.code-class { color: #ffcb6b; }
-.code-string { color: #c3e88d; }
-.code-comment { color: #546e7a; }
+.code-keyword {
+  color: #c792ea;
+}
+
+.code-class {
+  color: #ffcb6b;
+}
+
+.code-string {
+  color: #c3e88d;
+}
+
+.code-comment {
+  color: #546e7a;
+}
 
 /* ===== Experience / Timeline ===== */
 .timeline {
@@ -1029,7 +1135,7 @@ ul {
   opacity: 1;
 }
 
-.achievement-card > * {
+.achievement-card>* {
   position: relative;
   z-index: 1;
 }
@@ -1258,12 +1364,29 @@ ul {
   animation: slideUp 0.8s ease forwards;
 }
 
-.animate-in:nth-child(1) { animation-delay: 0.1s; }
-.animate-in:nth-child(2) { animation-delay: 0.2s; }
-.animate-in:nth-child(3) { animation-delay: 0.3s; }
-.animate-in:nth-child(4) { animation-delay: 0.4s; }
-.animate-in:nth-child(5) { animation-delay: 0.5s; }
-.animate-in:nth-child(6) { animation-delay: 0.6s; }
+.animate-in:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.animate-in:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.animate-in:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.animate-in:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.animate-in:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.animate-in:nth-child(6) {
+  animation-delay: 0.6s;
+}
 
 @keyframes slideUp {
   to {
@@ -1411,13 +1534,27 @@ ul {
 }
 
 @keyframes toastIn {
-  from { transform: translateY(40px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes toastOut {
-  from { transform: translateY(0); opacity: 1; }
-  to { transform: translateY(40px); opacity: 0; }
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(40px);
+    opacity: 0;
+  }
 }
 
 /* ===== Particle ===== */
@@ -1433,8 +1570,15 @@ ul {
     transform: translateY(0) translateX(0);
     opacity: 0;
   }
-  10% { opacity: 1; }
-  90% { opacity: 1; }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
   100% {
     transform: translateY(-100vh) translateX(50px);
     opacity: 0;

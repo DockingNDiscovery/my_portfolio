@@ -63,11 +63,11 @@ navLinks.querySelectorAll('.nav-link').forEach((link) => {
 
 // ===== Typing Effect =====
 const typingStrings = [
-  '.NET Full Stack Developer',
-  'Backend Engineer',
-  'Azure Cloud Expert',
-  'API Architect',
-  'Problem Solver',
+  'Full Stack Developer',
+  '.NET + Angular Developer',
+  'Java + React Developer',
+  'APIM Engineer',
+  'Data Analyst',
 ];
 
 let stringIndex = 0;
