@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Madhu — .NET Full Stack Developer</title>
+  <meta name="description"
+    content="Portfolio of Akash Madhu, a .NET Full Stack Developer with 3+ years of experience building scalable web applications at Zoho Corporation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Cursor glow effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>AM<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting animate-in">Hello, I'm</p>
+        <h1 class="hero-name animate-in">Akash <span class="gradient-text">Madhu</span></h1>
+        <div class="hero-title-wrapper animate-in">
+          <span class="hero-title-prefix">I'm a</span>
+          <span class="hero-title-typed" id="typedText"></span>
+          <span class="typed-cursor">|</span>
+        </div>
+        <p class="hero-description animate-in">
+          .NET Full Stack Developer with 3+ years of experience crafting scalable
+          web applications, robust APIs, and data-driven solutions at Zoho Corporation.
+        </p>
+        <div class="hero-cta animate-in">
+          <a href="#contact" class="btn btn-primary">
+            <span>Get In Touch</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            <span>View Projects</span>
+          </a>
+        </div>
+        <div class="hero-stats animate-in">
+          <div class="stat">
+            <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="2">0</span>
+            <span class="stat-label">Awards Won</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual animate-in">
+        <div class="hero-image-wrapper">
+          <div class="hero-image-ring"></div>
+          <div class="hero-image-ring ring-2"></div>
+          <img src="assets/profile.webp" alt="Akash Madhu" class="hero-image" />
+        </div>
+        <div class="floating-badge badge-1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+          </svg>
+          <span>.NET</span>
+        </div>
+        <div class="floating-badge badge-2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 12l2 2 4-4" />
+          </svg>
+          <span>Azure</span>
+        </div>
+        <div class="floating-badge badge-3">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <span>SQL</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I am a passionate <strong>.NET Full Stack Developer</strong> with a Master of Computer Application (MCA)
+            degree.
+            Currently serving as a <strong>Member of the Technical Staff at Zoho Corporation</strong>, I specialize in
+            designing,
+            developing, and maintaining scalable web applications.
+          </p>
+          <p>
+            I spearhead backend initiatives including the development of <strong>Queryable Records APIs</strong> and the
+            implementation of <strong>automated schedulers</strong> to enhance system performance. I thrive in Agile
+            environments and have a demonstrated ability to collaborate with cross-functional teams to deliver
+            high-quality software.
+          </p>
+          <p>
+            My experience spans the entire <strong>Software Development Life Cycle (SDLC)</strong>, from initial
+            requirement
+            gathering to deployment and performance optimization. I'm passionate about writing clean, efficient
+            code and continuous improvement.
+          </p>
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <span class="info-label">Name</span>
+              <span class="info-value">Akash Madhu</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Degree</span>
+              <span class="info-value">MCA</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Role</span>
+              <span class="info-value">Full Stack Developer</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">India</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <div class="code-window">
+            <div class="code-header">
+              <div class="code-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="code-filename">akash.cs</span>
+            </div>
+            <pre class="code-content"><code><span class="code-keyword">public class</span> <span class="code-class">Developer</span>
+{
+  <span class="code-keyword">public string</span> Name => <span class="code-string">"Akash Madhu"</span>;
+  <span class="code-keyword">public string</span> Role => <span class="code-string">"Full Stack Dev"</span>;
+  <span class="code-keyword">public string[]</span> Languages =>
+    <span class="code-keyword">new</span>[] { <span class="code-string">"C#"</span>, <span class="code-string">"JavaScript"</span>,
+             <span class="code-string">"TypeScript"</span>, <span class="code-string">"SQL"</span> };
+  <span class="code-keyword">public string[]</span> Frameworks =>
+    <span class="code-keyword">new</span>[] { <span class="code-string">".NET"</span>, <span class="code-string">"Angular"</span>,
+             <span class="code-string">"React"</span>, <span class="code-string">"Azure"</span> };
+
+  <span class="code-keyword">public bool</span> IsAvailable => <span class="code-keyword">true</span>;
+  <span class="code-keyword">public string</span> Passion =>
+    <span class="code-string">"Building scalable apps"</span>;
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">02.</span> Experience
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Member of Technical Staff</h3>
+                <p class="timeline-company">Zoho Corporation</p>
+              </div>
+              <span class="timeline-date">Present</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Spearhead backend development of <strong>Queryable Records APIs</strong> for scalable data access</li>
+              <li>Implement <strong>automated schedulers</strong> to enhance system performance and reliability</li>
+              <li>Design and develop <strong>secure, scalable API solutions</strong> using .NET ecosystem</li>
+              <li>Execute complex <strong>data migrations and ETL workflows</strong> using Azure Data Factory</li>
+              <li>Collaborate with cross-functional teams in <strong>Agile environments</strong> to deliver high-quality
+                software</li>
+              <li>Integrate <strong>Angular and React</strong> frontends with backend services for improved UX</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">.NET</span>
+              <span class="tag">C#</span>
+              <span class="tag">Azure</span>
+              <span class="tag">Angular</span>
+              <span class="tag">React</span>
+              <span class="tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Software Developer</h3>
+                <p class="timeline-company">Kovenantz Technologies</p>
+              </div>
+              <span class="timeline-date">Previous</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Developed and maintained <strong>scalable web applications</strong> using .NET frameworks</li>
+              <li>Worked with <strong>SQL Server, Azure SQL</strong>, and Entity Framework for data management</li>
+              <li>Contributed to the full <strong>Software Development Life Cycle (SDLC)</strong></li>
+              <li>Gained expertise in <strong>Stored Procedures</strong> and database optimization</li>
+              <li>Built <strong>Power BI</strong> dashboards for data visualization and reporting</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">.NET</span>
+              <span class="tag">C#</span>
+              <span class="tag">Entity Framework</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">Power BI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">03.</span> Skills & Expertise
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-tilt>
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h3 class="skill-title">Core Development</h3>
+          <p class="skill-desc">Extensive experience with .NET frameworks and C# to build high-performance applications.
+          </p>
+          <div class="skill-tags">
+            <span>.NET Framework</span>
+            <span>.NET Core</span>
+            <span>C#</span>
+            <span>ASP.NET MVC</span>
+            <span>Web API</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-tilt>
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 class="skill-title">Web Technologies</h3>
+          <p class="skill-desc">Proficient in integrating Angular and React with backend services to improve user
+            experience.</p>
+          <div class="skill-tags">
+            <span>Angular</span>
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>JavaScript</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-tilt>
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+            </svg>
+          </div>
+          <h3 class="skill-title">Database & API</h3>
+          <p class="skill-desc">Skilled in SQL Server, Azure SQL, Stored Procedures, and Entity Framework.</p>
+          <div class="skill-tags">
+            <span>SQL Server</span>
+            <span>Azure SQL</span>
+            <span>Entity Framework</span>
+            <span>Stored Procedures</span>
+            <span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-tilt>
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z" />
+            </svg>
+          </div>
+          <h3 class="skill-title">Data & Cloud</h3>
+          <p class="skill-desc">Expert in data migrations and ETL workflows using Azure Data Factory and Power BI.</p>
+          <div class="skill-tags">
+            <span>Azure</span>
+            <span>Azure Data Factory</span>
+            <span>Power BI</span>
+            <span>ETL</span>
+            <span>Data Migration</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-tilt>
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path
+                d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+            </svg>
+          </div>
+          <h3 class="skill-title">DevOps & Tools</h3>
+          <p class="skill-desc">Experienced with CI/CD pipelines, version control, and Agile development methodologies.
+          </p>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>Azure DevOps</span>
+            <span>CI/CD</span>
+            <span>Agile/Scrum</span>
+            <span>SDLC</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-tilt>
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3 class="skill-title">Best Practices</h3>
+          <p class="skill-desc">Committed to clean code, design patterns, and continuous improvement in all aspects of
+            development.</p>
+          <div class="skill-tags">
+            <span>SOLID</span>
+            <span>Design Patterns</span>
+            <span>Clean Code</span>
+            <span>Code Review</span>
+            <span>Testing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">04.</span> Featured Projects
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay">
+              <span class="project-view">View Details</span>
+            </div>
+            <div class="project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 6h16M4 12h16M4 18h16" />
+                <circle cx="20" cy="6" r="2" />
+                <circle cx="20" cy="12" r="2" />
+              </svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-type">Backend API</div>
+            <h3 class="project-title">Queryable Records API</h3>
+            <p class="project-desc">
+              A high-performance, scalable API framework enabling dynamic querying of records with
+              advanced filtering, pagination, and sorting capabilities built on .NET Core.
+            </p>
+            <div class="project-tech">
+              <span>.NET Core</span>
+              <span>C#</span>
+              <span>SQL Server</span>
+              <span>Entity Framework</span>
+              <span>REST API</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay">
+              <span class="project-view">View Details</span>
+            </div>
+            <div class="project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-type">Automation</div>
+            <h3 class="project-title">Automated Task Scheduler</h3>
+            <p class="project-desc">
+              An intelligent scheduling system that automates recurring tasks, monitors execution,
+              and provides real-time reporting on task performance and system health.
+            </p>
+            <div class="project-tech">
+              <span>.NET</span>
+              <span>C#</span>
+              <span>Azure</span>
+              <span>SQL Server</span>
+              <span>Background Services</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay">
+              <span class="project-view">View Details</span>
+            </div>
+            <div class="project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path
+                  d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z" />
+                <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" />
+              </svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-type">Data Engineering</div>
+            <h3 class="project-title">Azure Data Migration Pipeline</h3>
+            <p class="project-desc">
+              End-to-end data migration and ETL pipeline leveraging Azure Data Factory for
+              seamless data transformation across multiple cloud environments.
+            </p>
+            <div class="project-tech">
+              <span>Azure Data Factory</span>
+              <span>Azure SQL</span>
+              <span>Power BI</span>
+              <span>ETL</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay">
+              <span class="project-view">View Details</span>
+            </div>
+            <div class="project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <path d="M8 21h8M12 17v4" />
+              </svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-type">Full Stack</div>
+            <h3 class="project-title">Enterprise Dashboard</h3>
+            <p class="project-desc">
+              A comprehensive enterprise dashboard integrating Angular frontend with .NET backend,
+              featuring real-time data visualization, analytics, and role-based access control.
+            </p>
+            <div class="project-tech">
+              <span>Angular</span>
+              <span>.NET Core</span>
+              <span>SQL Server</span>
+              <span>Power BI</span>
+              <span>Azure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">05.</span> Achievements
+      </h2>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <h3 class="achievement-title">Best Performer Award</h3>
+          <p class="achievement-desc">
+            Recognized for exceptional contributions to project delivery, code quality,
+            and innovative problem-solving across multiple critical initiatives.
+          </p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon trophy">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 9H4.5a2.5 2.5 0 010-5H6" />
+              <path d="M18 9h1.5a2.5 2.5 0 000-5H18" />
+              <path d="M4 22h16" />
+              <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 19.24 7 20v2" />
+              <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 19.24 17 20v2" />
+              <path d="M18 2H6v7a6 6 0 0012 0V2z" />
+            </svg>
+          </div>
+          <h3 class="achievement-title">Super Squad Award</h3>
+          <p class="achievement-desc">
+            Awarded to the top-performing team for outstanding collaboration, delivering
+            complex features on time with zero critical issues in production.
+          </p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <path d="M22 4L12 14.01l-3-3" />
+            </svg>
+          </div>
+          <h3 class="achievement-title">MCA Graduate</h3>
+          <p class="achievement-desc">
+            Master of Computer Application – A comprehensive postgraduate program
+            building deep expertise in software engineering and computer science.
+          </p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 00-3-3.87" />
+              <path d="M16 3.13a4 4 0 010 7.75" />
+            </svg>
+          </div>
+          <h3 class="achievement-title">Agile Team Leader</h3>
+          <p class="achievement-desc">
+            Demonstrated ability to lead cross-functional teams in Agile environments,
+            driving successful delivery of enterprise-scale applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="section-number">06.</span> Get In Touch
+      </h2>
+      <div class="contact-wrapper reveal">
+        <div class="contact-info">
+          <h3 class="contact-heading">Let's Build Something Great Together</h3>
+          <p class="contact-desc">
+            I'm currently open to new opportunities and exciting projects. Whether you have a
+            question, a project idea, or just want to connect — my inbox is always open!
+          </p>
+          <div class="contact-methods">
+            <a href="mailto:akashmadhu824@gmail.com" class="contact-method" id="emailLink">
+              <div class="contact-method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <path d="M22 6l-10 7L2 6" />
+                </svg>
+              </div>
+              <div>
+                <span class="method-label">Email</span>
+                <span class="method-value">akashmadhu824@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/akash-madhu-26a55921b/" target="_blank" class="contact-method"
+              id="linkedinLink">
+              <div class="contact-method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div>
+                <span class="method-label">LinkedIn</span>
+                <span class="method-value">linkedin.com/in/akash-madhu</span>
+              </div>
+            </a>
+            <a href="https://github.com/DockingNDiscovery" target="_blank" class="contact-method" id="githubLink">
+              <div class="contact-method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                </svg>
+              </div>
+              <div>
+                <span class="method-label">GitHub</span>
+                <span class="method-value">github.com/DockingNDiscovery</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="formName" class="form-label">Your Name</label>
+            <input type="text" id="formName" class="form-input" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="formEmail" class="form-label">Your Email</label>
+            <input type="email" id="formEmail" class="form-input" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="formSubject" class="form-label">Subject</label>
+            <input type="text" id="formSubject" class="form-input" placeholder="Project Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="formMessage" class="form-label">Message</label>
+            <textarea id="formMessage" class="form-input form-textarea" placeholder="Tell me about your project..."
+              rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span>Send Message</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo">
+          <span class="logo-bracket">&lt;</span>AM<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-text">Designed & Built by <strong>Akash Madhu</strong></p>
+        <div class="footer-socials">
+          <a href="https://github.com/DockingNDiscovery" target="_blank" aria-label="GitHub" class="footer-social">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/akash-madhu-26a55921b/" target="_blank" aria-label="LinkedIn"
+            class="footer-social">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="mailto:akashmadhu@example.com" aria-label="Email" class="footer-social">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <path d="M22 6l-10 7L2 6" />
+            </svg>
+          </a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Akash Madhu. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
